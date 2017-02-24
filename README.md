@@ -94,7 +94,7 @@ exploring more advanced topics in React. Here are some ideas of things to implem
 
 - Use Local Storage to keep track of what customers have added to their cart
 - Introduce Redux in an idiomatic and relevant way
-- Allow the customer to 'Checkout'. This should take the customer to a new page to his delivery details (try React Router)
+- Allow the customer to 'Checkout'. This should take the customer to a new page to enter their delivery details (try React Router)
 - Create an actual API
 
 ## Submission (important!)
