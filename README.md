@@ -74,6 +74,9 @@ To become a ninja, you need to level up. Here's what each level is about:
 
 #### Level 3
 
+In this level, most of the tests have been written for you. However, there are some tests
+that still need to be completed by you!
+
 - Creating a facet and filter pane that allows the users to filter by brand (think online shopping)
 
 #### Level 4

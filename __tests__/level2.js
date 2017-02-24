@@ -1,5 +1,5 @@
 import React from 'react';
-import {shallow, mount, render} from 'enzyme';
+import {shallow} from 'enzyme';
 import App from '../src/App';
 import ShoeList from '../src/components/ShoeList';
 import CartSummary from '../src/components/CartSummary';
