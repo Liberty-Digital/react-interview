@@ -117,6 +117,7 @@ Here are a few tips that might help out:
 can even configure Jest to run one test at a time.
 - Make a Git commit every time you get a test to pass. We love atomic commits.
 - Run the test suite continuously while you code (this is even more important than running the app!)
+- [Materialize CSS](http://materializecss.com) has been included in the project or your convenience.
 
 
 ## Resources
@@ -125,6 +126,10 @@ can even configure Jest to run one test at a time.
 * [Egghead.io](https://egghead.io/courses)
 * [Scotch.io](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
 * [This book](https://www.fullstackreact.com/)
+* [Materialize CSS](http://materializecss.com)
+* [Jest](https://facebook.github.io/jest/docs/api.html)
+* [Enzyme](http://airbnb.io/enzyme/docs/api/)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 The README is also a great place to find some tips!
