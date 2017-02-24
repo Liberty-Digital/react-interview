@@ -1,4 +1,4 @@
-# React Interview Exercise
+# React Koans 
 
 In this exercise, we will build a Shoe Store. 
 
