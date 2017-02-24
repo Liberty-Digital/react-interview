@@ -1,5 +1,5 @@
 import React from 'react';
-import Shoe from '../Shoe/Shoe';
+import Shoe from './Shoe';
 
 const ShoeList = (props) => (
   <div>ShoeList</div>

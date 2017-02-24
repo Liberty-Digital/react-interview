@@ -1,8 +1,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import App from '../src/App';
-import ShoeList from '../src/components/ShoeList/ShoeList';
-import NavBar from '../src/components/NavBar/NavBar';
+import ShoeList from '../src/components/ShoeList';
+import NavBar from '../src/components/NavBar';
 import Api from '../src/api';
 
 describe('App', () => {
