@@ -2,7 +2,6 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import App from '../src/App';
 import ShoeList from '../src/components/ShoeList/ShoeList';
-import CartSummary from '../src/components/CartSummary/CartSummary';
 import NavBar from '../src/components/NavBar/NavBar';
 import Api from '../src/api';
 
@@ -53,11 +52,6 @@ describe('ShoeList', () => {
     { id: 'd', brand: 'Adidas', name: 'Ultra Boost', price: 1500.00 }
   ];
 
-  it('should have a `ShoeList` class', () => {
-    const wrapper = shallow(<ShoeList shoes={mockShoes}/>);
-    expect(wrapper.hasClass('ShoeList')).toEqual(true);
-  });
-
   it('should render a <Shoe /> for every item in `props.shoes`', () => {
     const wrapper = shallow(<ShoeList shoes={mockShoes}/>);
     expect(wrapper.find(Shoe).length).toEqual(mockShoes.length);
@@ -69,7 +63,7 @@ describe('Shoe', () => {
 
   const mockShoe = { id: 'a', brand: 'Nike', name: 'Air Max 90', price: 2999 };
 
-  it('should render the title', () => {
+  it('should render the brand', () => {
     const wrapper = shallow(<Shoe {...mockShoe}/>);
     const text = wrapper.text();
     const pattern = new RegExp(mockShoe.brand);
