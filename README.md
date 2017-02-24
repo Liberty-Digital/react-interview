@@ -48,6 +48,11 @@ To run the tests interactively while you code, just run:
 
     npm test
     
+The above command will run the tests for all levels, it is recommended that you run tests
+just for the level you are on. To do this:
+
+    npm test level1
+    
 If you prefer a more complete view of all test cases, you can run:
 
     npm test -- --verbose
